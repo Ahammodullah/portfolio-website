@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>E-commerce</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">ShopZone</div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="cart">
+            <span id="cart-count"></span> 🛒
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section>
+        <div class="slider">
+            <div class="child prev-btn-container">
+                <button class="prev_btn" onclick="prev()"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M10 22L0 12L10 2l1.775 1.775L3.55 12l8.225 8.225z"/>
+                    </svg> 
+                </button>
+            </div>
+        
+            <img src="image/product1.webp" alt="" id="slider-img" class="slider-img" />
+        
+            <div class="child next-btn-container">
+                <button class="next_btn" onclick="next()"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+         
+    </section>
+
+
+     <!-- Product Section -->
+     <section class="products" id="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./image/phonestand.webp" alt="Phone Stand">
+                <h3>Phone Stand</h3>
+                <p class="price">$99.99</p>
+                <button class="add-to-cart" data-name="Phone Stand" data-price="99.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./image/angulcover.webp" alt="Finger Cover">
+                <h3>Finger Cover</h3>
+                <p class="price">$89.99</p>
+                <button class="add-to-cart" data-name="Finger Cover" data-price="89.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./image/chulkata.webp" alt="Hair Comb">
+                <h3>Hair Comb</h3>
+                <p class="price">$79.99</p>
+                <button class="add-to-cart" data-name="Hair Comb" data-price="79.99">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="./image/ghori.jpg" alt="Laptops">
+                <p>Laptops</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/router.jpg" alt="Shoes">
+                <p>Shoes</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/S2821bf3e21964ffc9edbd192893477055.jpg_400x400q80.jpg_.webp" alt="Home & Living">
+                <p>Home & Living</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/68b912529f9ae51cc16061468b4fb09c.jpg_400x400q80.jpg_.webp" alt="Sports">
+                <p>Sports</p>
+            </div>
+        </div>
+    
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="./image/laptop.jpg" alt="Laptops">
+                <p>Laptops</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/juta2.jpg" alt="Shoes">
+                <p>Shoes</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/Home & Living1.jpg" alt="Home & Living">
+                <p>Home & Living</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/bat.jpg" alt="Sports">
+                <p>Sports</p>
+            </div>
+        </div>
+    
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="./image/headphone.jpg" alt="Electronics">
+                <p>Electronics</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/juta.jpg" alt="Fashion">
+                <p>Fashion</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/Home & Living2.jpg" alt="Home & Living">
+                <p>Home & Living</p>
+            </div>
+            <div class="category-card">
+                <img src="./image/batminton.webp" alt="Sports">
+                <p>Sports</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 ShopZone. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
+    </footer>
+
+
+
+
+    
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
