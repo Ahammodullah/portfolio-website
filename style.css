@@ -404,10 +404,10 @@ button:hover svg {
   .input-group .toggle-password {
     position: absolute;
     right: 10px;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 22px;
     color: #666;
   }
   
@@ -460,45 +460,56 @@ button:hover svg {
   }
   
   /* Social login buttons */
-  .social-login {
+  .text_log{
     text-align: center;
+    margin-top: 30px;
+    color: grey;
+  }
+  .social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .image_logo{
+    width: 30px;
     margin-top: 20px;
   }
   
   .social-login p {
     font-size: 14px;
-    color: #333;
+    color: grey;
     margin-bottom: 10px;
+  }
+  p{
+    color: grey;
   }
   
   .social-login a {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px 15px;
+    
+    padding: 10px;
     text-decoration: none;
-    font-size: 14px;
     border-radius: 5px;
-    cursor: pointer;
-    color: #fff;
     transition: background-color 0.3s;
   }
   
-  .google-btn {
-    background-color: #4285F4;
+  .google_btn{
+    color: grey ;
+    font-size: 20px;
   }
-  
-  .google-btn:hover {
-    background-color: #357ae8;
+  .google_btn:hover {
+    color:black;
   }
-  
-  .facebook-btn {
-    background-color: #3B5998;
+  .facebook_btn:hover {
+    color:black;
   }
-  
-  .facebook-btn:hover {
-    background-color: #2d4373;
+  .facebook_btn{
+    color: grey ;
+    font-size: 20px ;
   }
 
+
+   
 
   /* signup */
   /* General styling */
