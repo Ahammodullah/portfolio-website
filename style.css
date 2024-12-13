@@ -497,12 +497,7 @@ button:hover svg {
     color: grey ;
     font-size: 20px;
   }
-  .google_btn:hover {
-    color:black;
-  }
-  .facebook_btn:hover {
-    color:black;
-  }
+ 
   .facebook_btn{
     color: grey ;
     font-size: 20px ;
@@ -674,7 +669,7 @@ button:hover svg {
 
 
 
-
+/* footer */
 
 
   * {
@@ -732,12 +727,14 @@ button:hover svg {
   
   .footer-bottom {
     text-align: center;
-    margin-top: 20px;
     font-size: 14px;
+    background-color: #253046 ; 
+
   }
   
   .footer-bottom p {
     color: #d1d1d1;
+    padding: 10px;
   }
   
   .footer-bottom p a {
@@ -748,5 +745,18 @@ button:hover svg {
     .footer-container {
       flex-direction: column;
     }
+  }
+
+
+
+
+  /* privacy */
+  .text_p p{
+    color: black;
+    padding: 20px;
+  }
+  .text_all h2{
+    padding: 20px;
+    font-weight: bold;
   }
   
