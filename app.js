@@ -23,6 +23,39 @@ function next() {
 
 window.onload = updateImage;
 
+
+
+
+
+
+
+
+let uniqueKidsSlideIndex2 = 0;
+function showUniqueSlides2(slidesId, index) {
+  const slides = document.querySelector(`#${slidesId}`);
+  const totalSlides = slides.children.length;
+
+  // Reset index if out of bounds
+  if (index < 0) uniqueKidsSlideIndex2 = totalSlides - 1;
+  else if (index >= totalSlides) uniqueKidsSlideIndex2 = 0;
+
+  // Calculate and apply transform
+  slides.style.transform = `translateX(-${uniqueKidsSlideIndex2 * 33.33}%)`; // Adjust based on visible items
+}
+function prevUniqueSlide2(section) {
+  uniqueKidsSlideIndex2--;
+  showUniqueSlides2('unique-kids-slides2', uniqueKidsSlideIndex2);
+  
+}
+function nextUniqueSlide2(section) {
+  uniqueKidsSlideIndex2++;
+  showUniqueSlides2('unique-kids-slides2', uniqueKidsSlideIndex2);
+  
+}
+
+
+
+
 // loginpage
 // Show/Hide Password
 function togglePassword() {
