@@ -2,6 +2,8 @@ let images = [
     'image/product2.webp',
     'image/product3.webp',
     'image/product1.webp',
+     
+
     // Add more images as needed
 ];
 let currentIndex = 0;
