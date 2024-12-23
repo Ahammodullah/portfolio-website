@@ -115,6 +115,7 @@ body {
 }
 
 .categories h2 {
+  padding-top: 80px;
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
@@ -271,6 +272,7 @@ button:hover svg {
 .login_page{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    padding-top: 105px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -433,8 +435,7 @@ button:hover svg {
   /* General styling */
 .sign_up{
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    padding-top:45px ;
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
@@ -591,6 +592,34 @@ button:hover svg {
 
 
 
+  /* load_more */
+  /* load_more */
+  
+  .main_load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .load_more{
+    width: 380px;
+    border: #007BFF 1px solid;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #007BFF;
+   padding: 20px;
+
+     
+  }
+
 
 /* footer */
 
@@ -678,13 +707,15 @@ button:hover svg {
     padding: 20px;
   }
   .text_all h2{
-    padding: 20px;
+    padding-top: 80px;
+    padding-left: 20px;
     font-weight: bold;
   }
 
 /* terms_sevice */
   .main_terms{
-    padding: 20px;
+    padding-top: 70px;
+    padding-left: 20px;
   }
   .terms_text{
     margin-top: 20px;
@@ -693,6 +724,20 @@ button:hover svg {
     color: black;
   }
 
+
+  
+
+  .text_list1 {
+    padding-left: 20px;
+    padding-top: 115px;
+    color: black;
+
+  }
+  .text_list1 p{
+    color: black;
+
+
+  }
 
   
   .text_list p{
@@ -943,5 +988,3 @@ h2{
   }
 }
 
-
- 
