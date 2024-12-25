@@ -620,14 +620,16 @@ button:hover svg {
     align-items: center;
   }
   
+  .load_more a{
+    text-decoration: none;
+    font-size: 30px;
+  }
   .btn_2{
     display: flex;
     justify-content: center;
     align-items: center;
    color: #007BFF;
    padding: 20px;
-
-     
   }
 
 
