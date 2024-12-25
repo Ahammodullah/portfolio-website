@@ -15,7 +15,7 @@ body {
     background: #2c3e50;
     color: #fff;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     width: 100%;
 }
 
@@ -115,10 +115,20 @@ body {
 }
 
 .categories h2 {
-  padding-top: 80px;
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
+}
+
+/* -- category link--- */
+/* -- category link--- */
+.categories h1{
+  padding-top: 80px;
+/* -- category link--- */
+/* -- category link--- */
+
+
+
 }
 
 .category-grid {
