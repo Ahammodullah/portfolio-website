@@ -1032,3 +1032,16 @@ h2{
   }
 }
 
+
+
+
+/* loadmore */
+/* loadmore */
+.load_text_end p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: .4375rem;
+  margin-bottom: 25px;
+}
