@@ -269,16 +269,12 @@ body {
 
 /* Button styles */
 button {
-    background:#555659;
     border: none;
     cursor: pointer;
     padding: 7px;
     border-radius: 50%;
-    color: white;
+    color: #2c3e50;
 
-}
-button:hover{
-  background-color:#454749 ;
 }
 
 
