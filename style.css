@@ -269,12 +269,18 @@ body {
 
 /* Button styles */
 button {
-    background:  whitesmoke;
+    background:#555659;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 7px;
     border-radius: 50%;
+    color: white;
+
 }
+button:hover{
+  background-color:#454749 ;
+}
+
 
 button svg {
     fill: white;
@@ -1178,6 +1184,7 @@ h2{
   min-width: 30px;
   text-align: center;
 }
+
 
 /* Action Buttons */
 .fnf-action-buttons {
